@@ -1,0 +1,287 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color: #000;
+    font-size: 17px;
+    line-height: 1.5;
+    
+}
+a{
+    color: #262626;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+    padding:  15px;
+    font-size: 13px;
+    padding-left: 75px;
+    padding-top:25px;
+    padding-bottom: 25px;
+
+}
+.main-nav img{
+    width: 110px;
+}
+.sample{
+    display: inline-flex;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    /* gap: 10px; */
+}
+/* .sample li{
+    /* padding-left: 300px;
+    margin-left: 50px; */
+    /* gap: 10px; */
+/* } */ 
+.main-menu {
+    display: inline-flex;
+}
+.main-nav ul li{
+    padding: 0 10px;
+}
+.main-nav ul .main-menu{
+    margin-left: 20px;
+}
+.main-menu li :hover{
+    border-bottom: solid #262626;
+
+}
+.btn{
+    background-color: #0067b8;
+    width: 140px;
+    height: 35px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 10px;
+    color: #fff;
+    font-size: 15px;
+}
+.btn :hover{
+    opacity: 0.9;
+}
+
+.link :hover{
+    border-bottom:solid #262626 ;
+}
+header{
+    background: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-M365-Icon-Bounce-Word-Merch:VP4-1399x600");
+   padding-top: 150px;
+    padding-left: 100px;
+   background-size:cover;
+   height: 550px;
+   
+   
+    
+}
+.part2{
+    display:flex;
+    justify-content: space-between;
+    padding: 200px;
+    
+    padding-left: 200px;
+    padding-right: 200px;  
+    
+}
+.icon1{
+    padding-left: 77px;
+}
+.icon2{
+    padding-left: 60px;
+}
+.icon3{
+    padding-left: 40px;
+}
+.icon4{
+    padding-left: 36px;
+}
+.iconlink{
+    color: #0067b8;
+    text-decoration:none;
+}
+
+.part3{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);  
+    justify-content: space-between; 
+    padding-left: 90px;
+    padding-right: 85px; 
+     gap: 40px;
+    margin-right: 35px;
+    position: relative;
+} 
+.link1{
+    color: #0067b8;
+    font-weight: 750;
+    padding-top: 15px;
+}
+.link1:hover{
+    border-bottom: solid #0067b8;
+    
+}
+
+ 
+.icon1{
+    position: relative;
+    align-items: center;
+    
+}  
+       
+.part2 .icon{
+    position: relative;
+    align-items: center;
+
+}
+.part3 img{
+    width: 100%;
+}
+.part3{
+    font-size: 14px;
+}
+.part4{
+    background: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Xbox-Series-S-Light-Background:VP4-1260x600");
+  
+    width: 1109px;
+    height: 550px;
+    padding-left: 650px;
+    padding-top: 300px;
+    margin-left: 70px;
+    margin-top: 100px;
+   
+}
+.btn2{
+    background-color: #0067b8;
+    border: none;
+    font-weight: bold;
+    width: 95px;
+    height: 40px;
+    border-radius: 3px;
+    color: #fff;
+    margin-left: 10px;
+
+
+}
+.part4 h5{
+    font-size: 27px;
+    font-weight: 500;
+    padding-left: 10px;
+    
+      
+}
+.part4 p{
+    font-size: 20;
+    padding: 20px;
+    padding-left: 10px;
+    
+}
+.part5{
+    display: flex;
+}
+.part5font{
+    padding-top: 90px;
+    padding-left: 78px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.part5 img{
+    width: 250px;
+    height: 140px;
+    padding-top: 10px;
+}
+.part5{
+    padding-left: 65px;
+    padding-right: 78px;
+    justify-content: space-between;
+    gap: 22px;
+    font-size: 16px;
+}
+.part5 h3{
+    font-size: 25px;
+    font-weight: 600;
+
+}
+.part5 h2{
+    padding-left: 50px;
+}
+.bottomicon ul{
+    display: flex;
+    /* justify-content:; */
+    gap: 10px;
+
+}
+.bottomicon{
+    padding-right: 100px; 
+    padding-top: 60px;
+    padding-left: 65px;
+
+}
+.bottomicon img{
+    width: 35px;
+    height: 35px;
+}
+.bottom{
+    width: 100%;
+    height: 405px;
+    margin-top: 120px;
+    background-color: #f2f2f0;
+    width: 100%;
+}
+.bottom{
+    
+}
+.bottom h6{
+    font-size: 14px;
+}
+.bottom ul li{
+    padding: 6px;
+    opacity: .8;
+}
+.bottomdiv{
+    display: flex;
+    font-size: 10px;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 110px;
+    padding-top: 30px; 
+
+}
+.globe{
+    font-size: 25px;
+}
+.end, .end ul{
+    display: flex;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 11px;
+    
+}
+.rightend{
+    
+    margin-left: 406px;
+    margin-top: 10px;
+    gap: 12px;
+}
+.endtext{
+    margin-top: 10px;
+}
+
+
+
+
+
+                
+
